@@ -20,6 +20,7 @@
                                 data-srcset="{{ slide | slideImgSrcSet(slide.imgtype) }}"
                                 class="swiper-lazy w-full h-auto"
                                 sizes="{{ slide.sizes if slide.sizes else '75vw' }}" 
+                                width="100%" height="100%"
                                 alt="{{ slide.imgalt }}">
                             <div class="swiper-lazy-preloader"></div>
                         </picture>
