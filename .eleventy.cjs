@@ -43,7 +43,7 @@ module.exports = function(eleventyConfig) {
 
     return {
         dir: {
-            output: 'docs',
+            output: 'build',
             input: 'pages',
             layouts: '_layouts',
             includes: '_includes'
